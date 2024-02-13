@@ -1,16 +1,16 @@
 package estepanek;
 
 /**
- * Exception for when stack is full
+ * Exception for when stack is empty
  * @author Eva Stepanek
  * @version 2024-02-13
  */
-public class StackFullException extends RuntimeException{
+public class StackEmptyException extends RuntimeException{
     /**
      * exception with own error message
      * @param message variable
      */
-    public StackFullException(String message){
+    public StackEmptyException(String message){
         super(message);
     }
 }

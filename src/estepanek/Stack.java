@@ -3,7 +3,7 @@ package estepanek;
 /**
  * generic stack class
  * @author Eva Stepanek
- * @version 2024-02-31
+ * @version 2024-02-13
  */
 public class Stack <T>{
     private Object[] array;
